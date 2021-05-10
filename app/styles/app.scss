@@ -1,0 +1,102 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+.nav-bar {
+    // font-size: 32px;
+    // height: 50px;
+    // width: auto;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(152, 194, 207);
+    border-radius: 5px;
+}
+
+ul {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+.nav-bar-left li{
+    padding: 20px;
+    border-right: solid;
+    border-color:rgb(73, 73, 73);
+
+    &:last-child {
+        border: none;
+    }
+}
+
+.links {
+    color: rgb(73, 73, 73);;
+    &:hover {
+        text-decoration: none;
+        color: rgb(114, 89, 173);
+    }
+}
+
+.container {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+// .cart-link {
+//     position: fixed;
+//     right: 10px;
+//     top: 10px;
+//     //background-color: #fff;
+//     color: grey;
+
+//     &:hover {
+//         text-decoration: none;
+//     }
+// }
+
+// .home {
+//     top: 10px;
+//     left: 10px;
+// }
+
+// .product-image {
+//     background: linear-gradient(to top, #2193b0, #6dd5ed);
+//     height: 100%;
+//     width: 40%;
+// }
+
+// .product-details {
+//     padding: 24px 32px;
+//     width: 60%;
+// }
+
+// .product {
+//     width: 500px;
+//     height: 240px;
+//     margin: 0 auto 50px;
+//     box-shadow: -20px 10px 30px 0px rgba(0, 0, 0, 0.25);
+//     cursor: pointer;
+//     color: #333;
+//     border-radius: 10px;
+//     &:hover {
+//         text-decoration: none;
+//         color: #333;
+//     }
+// }
+
+// .fp-prev:before {
+//     color: #000;
+//     content: '\f35a'; /* You should use \ and not /*/
+//     font-family: 'Font Awesome 5 Free'; /* This is the correct font-family*/
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 40px;
+// }
